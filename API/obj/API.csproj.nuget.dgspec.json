@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0-preview.8.20414.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0-preview.8.20407.4, )"
@@ -52,9 +56,9 @@
               "target": "Package",
               "version": "[5.0.0-preview.8.20407.4, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[5.5.1, )"
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
